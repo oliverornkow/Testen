@@ -11,6 +11,7 @@ namespace ConsoleApp22
         static void Main(string[] args)
         {
             HansOgGrethe();
+            AwesomeApp();
         }
 
         static void Test()
@@ -24,6 +25,10 @@ namespace ConsoleApp22
             Console.WriteLine("Metode 1");
             Test();
             Console.ReadLine();
+        }
+
+        static void AwesomeApp(){
+            Console.WriteLine("This is an awesome app");
         }
 
     }
